@@ -43,9 +43,6 @@ class DecCalculator extends Calculator{
        root.find(".group-number .result-bit span").get().reverse().forEach((element, index) =>
           $(element).text(this.resultNumberArray[index])
     )}
-
-
 }
-
 
 export {DecCalculator};
